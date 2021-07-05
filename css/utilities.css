@@ -22,7 +22,6 @@ background-color: var(--primary-color);
 color: #fff;
 border: none;
 border-radius: 5px;
-font-size: 0.9em;
 }
   
 .btn-outline {
@@ -54,8 +53,12 @@ transform: scale(0.9);
 }
 
 .bg-primary a,
-.btn-primary a {
-    color: white;
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a, 
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
 }
 
 .bg-secondary a,
@@ -63,7 +66,6 @@ transform: scale(0.9);
     color: white;
 }
 
-.
 .bg-light,
 .btn-light {
     background-color: var(--light-color);
